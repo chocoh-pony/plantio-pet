@@ -1,0 +1,158 @@
+
+@charset "UTF-8";
+@font-face {  font-family:'game'; src: url('./fonts/Hey\ Comic.ttf');}
+ul {
+    margin: 0;
+    padding:0;
+}
+
+li {
+    background-position: center center;
+    text-align: left;
+    list-style: none; 
+    margin: 10px;
+    display: block;
+}
+
+ul {
+    margin: 0;
+    padding:0;
+}
+ 
+li {
+    list-style: none; 
+    margin: 10px;
+    display: block;
+}
+li h2 {
+    padding: 5px 10px; 
+    margin:0;
+    border: 0px solid rgb(119, 0, 255); 
+    background: rgb(119, 0, 255);
+    text-decoration: none;
+    color:#FFF;
+    /* cantos arredondados */
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+li h2:hover {
+    background: rgb(160, 97, 233);
+    color: #000; 
+    border-color: #000;
+}
+h2{
+    font-family:'game', Geneva, sans-serif;
+    font-size:36px;
+}
+ 
+ul {
+    margin: 0;
+    padding:0;
+}
+ 
+li {
+    list-style: none; 
+    margin: 10px;
+    display: block;
+}
+li h2 {
+    padding: 5px 10px; 
+    margin:0;
+    border: 0px solid rgb(119, 0, 255);
+    background: rgb(119, 0, 255);
+    text-decoration: none;
+    color:#FFF;
+    /* cantos arredondados */
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:50px;
+}
+li h2:hover {
+    background: rgb(160, 97, 233);
+    color: #000; 
+    border-color: #000;
+}
+
+/*div*/
+h5{
+    font-weight:bold;
+    font-size:60px;
+    font-family:'game', Geneva, sans-serif;
+}
+
+li div {
+   
+     
+    margin:0;
+    border: 15px solid rgb(79, 16, 151);
+    text-decoration: none;
+    color:rgb(79, 16, 151);
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+li div:hover {
+    border: 15px solid rgb(201, 161, 247);
+    color: rgb(201, 161, 247); 
+    border-color: rgb(201, 161, 247)0;
+}
+div {
+    
+    text-indent:1em;
+    
+    
+}
+ 
+li {
+    list-style: none; 
+    margin: 10px;
+    display: block;
+}
+li div {
+   
+     
+    margin:0;
+    border:15px solid rgb(79, 16, 151);
+  
+    text-decoration: none;
+    color:rgb(79, 16, 151);
+    /* cantos arredondados */
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:50px;
+}
+li div:hover {
+   
+    border: 15px solid rgb(201, 161, 247);
+    color: rgb(201, 161, 247); 
+    border-color: rgb(201, 161, 247);
+}
+/*bara de saida*/
+.ab {
+    padding: 5px 10px; 
+    margin:0;
+    border: 0px solid rgb(119, 0, 255); 
+    background: rgb(94, 5, 197);
+    text-decoration: none;
+    color:rgb(201, 161, 247);
+    /* cantos arredondados */
+    -webkit-border-radius:15px;
+    -moz-border-radius:5px;
+    border-radius:15px;
+}
+.ab:hover {
+    background: rgb(160, 97, 233);
+    color: rgb(94, 5, 197); 
+    border-color: rgb(201, 161, 247);
+}
+.ab{
+    font-family:'game', Geneva, sans-serif;
+    font-size:36px;
+}
+
+li h2:hover {
+    background: rgb(160, 97, 233);
+    color: rgb(94, 5, 197); 
+    border-color: rgb(201, 161, 247);
+}

@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(165, 97, 230, 0.541);
+    
+}
+h1 {
+    background-color: rgba(167, 98, 231, 0.671);
+    color: rgb(80, 19, 138);
+    text-align: center;
+}
+h4 {
+    text-indent:20px;
+}
+main {
+    border: 2px solid rgb(80, 19, 138);
+    border-radius: 15px;
+    box-shadow: 4px solid rgba(0, 0, 0, 0.534);
+    max-width: 900px;
+    min-width: none;
+    background-color: white;
+    color: black;
+    margin: auto;   /*centraização da conteudo*/
+}
+.a-caixa {
+    padding: 10px 10px;
+    border: 2px solid rgb(80, 19, 138);
+    border-radius: 4px;
+    box-shadow: 4px solid rgba(0, 0, 0, 0.582);
+    margin: auto;
+    background-color: rgba(167, 98, 231, 0.671);
+    background-position: left center;
+  
+}
+.ul-volta{
+    columns: 2;
+}
+.main-caixa {
+    max-width: 900px;
+    min-width: none;
+}
+ /*.li {
+    font-family:'Times New Roman', Times, serif;
+    padding: 5px 10px;
+    border: 0px;
+    border-radius:5px;
+    background: rgba(167, 98, 231, 0.671);
+    color: black;
+    font-size: 30px;
+    
+}*/
+#imagem {
+    display: flex;
+    justify-content: center; 
+}
+
+.lif {
+    text-align: left;
+    list-style:none;
+}
+.P-H {
+    text-align: right center left; /* define o alinhamento das linhas */
+    line-height: 3px; /* define a altura das linhas */
+    letter-spacing:3px; /* define o espaço entre as letras */
+    word-spacing: 5px; /* define o espaço entre as palavras */
+    text-indent: 30px; /* define a margem da primeira linha texto */
+}
+.P-H2 {
+    padding-top: 10px; /* define o valor a "cima" */
+    padding-right: 20px; /* define o valor a "direita" */
+    padding-bottom: 30px; /* define o valor a "baixo" */
+    padding-left: 40px; /* define o valor a "esqueda" */
+}
+.P-H3 { /* forma simplificada com 4 (define primeiro em cima, segundo 
+    direita, terceiro em baixo, quarto esquerda)*/
+    padding: 10px 20px 30px 40px;
+}
+.P-H4 { /* forma simplificada 3 (o primeiro define em cima o segundo 
+    define esqueda e direita e o terceiri define a baixo) */
+    padding: 10px 20px 40px;
+}
+.P-H4 { /* forma simplificada com 2 (o primeiro define em baixo e em 
+    cima e o segundo define direita e esquerda) */
+    padding: 10px 20px;
+}
+.P-H5 { /* forma simplificada com 1 (define em cima, direita, baixo 
+    e esquerda com o mesmo valor)*/
+    padding: 10px;
+}
+
+.margin { /* é o espaçamento externo poser ser colocado em "auto" 
+    onde o navegador definer ou colocar em volor "px" */
+        margin:auto;
+        margin-top: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+}
+.a{
+    text-decoration: none; /*tirar abrevialção*/
+}
+
+.borda {
+     border-color: red;  /* defibe a cor da bordar */
+     border-style: solid;  /* define o estilo da borda*/
+     border-width: 1px;    /* define a largura da borda */
+}
+.borda2 { /* você pode somplicar assim*/
+    border: 1px solid red;
+}
+.borda3 {
+    border-top: 1px solid red; /* define a cor da borda em "cima" */
+    border-right: 1px solid red; /* define a cor da borda em "direita"  */
+    border-bottom: 1px solid red; /* define a cor da borda em "baixo"  */
+    border-left: 1px solid red; /* define a cor da borda em "esquefa"  */
+} 
+
+.lic1 {background-color: rgba(65, 105, 225, 0.589);}
+.lic2 {background-color: rgba(105, 90, 205, 0.493);}
+
+/*menu*/
+*{margin: 0; padding: 0;} /*seramos as margin do navegador para não dar erro*/
+.menu{
+    list-style: none; /*tira a decoração da lista*/
+    border: 1px solid #c0c0c0c0;
+    float:left; /*ele ficara alinhado a esquerda, meio que flutuado*/
+    background-color:white;
+}
+.menu li{
+    position:relative;
+    float:left;
+    border-right: 1px solid #c0c0c0c0;
+}
+.menu li a{
+    color:#333;
+    text-decoration: none; /*tira a decoração dos links*/ 
+    padding: 5px 10px; /*ajuda a definir o preengimento em blocos separados*/
+    display: block;
+}
+.menu li a:hover { /*quando o cursor passa dor cima muda a estetica*/
+    background:#333;
+    color:white;
+    text-shadow:0px 0px 5px white;
+}
+.menu li ul{ /*esse é o menu interno*/
+    list-style:none;
+    position: absolute; /*abrira o sub-menu */
+    top:25px; /*define o sub-menu abrir a baixo*/
+    left:0; /*ele define abrir na mesma largura*/
+    background-color:white; 
+    display:none; /*esconde o sub-menu*/
+}
+/*quando o cursor estiver em cima do menu pai ele abrira o sub-menu em um bloco*/
+.menu li:hover ul, .menu li.over ul {display:block;}
+.menu li ul li{ /*a estetica do sub-menu*/
+     
+     border:1px solid #c0c0c0c0;
+     display:block;
+     width:150px;
+}
+ /*efeito de caixa assima tudo*/
+ .objeto-a-flutuar:hover {
+    -webkit-transform: translateY(-8px);
+    -moz-transform: translateY(-8px);
+    -ms-transform: translateY(-8px);
+    -o-transform: translateY(-8px);
+    transform: translateY(-8px);
+}
+.objeto-a-flutuar {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.entrada{
+    border:0px solid black;
+    border-radius:0px;
+    width:auto;
+    height:500px;
+    background-position:center center;
+
+
+}
+div#h1 {background-image: url('imagem/entrada.png');}
+h4{
+    font-size:36px;
+    text-indent:150px;
+    color: white;
+    background:rgb(103, 0, 187);
+}
+li{ counter-increment: li;
+    text-indent:60px;
+}

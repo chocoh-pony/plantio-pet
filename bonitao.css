@@ -1,0 +1,230 @@
+@charset "UTF-8";
+@font-face {  font-family:'game'; src: url('./fonts/Hey\ Comic.ttf');}
+
+main{
+    background-color:none;
+    border:0px;
+    height: auto;
+    max-width: 900px;
+    min-width:400px;
+    margin:auto;
+  
+}
+.divh{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: auto;;
+    height: 300px;
+    background-color:rgb(255, 0, 221);
+    background-position:center;
+}
+.divt {
+    font-size:18px;
+    text-indent:30px;
+    border-radius:25px;
+    border: 1px solid rgb(92, 16, 155);
+    max-width:900px;
+    min-width: 450px;
+    height:auto;
+    background-color:rgba(92, 16, 155, 0.199);
+}
+.entrada{
+    border:0px solid black;
+    border-radius:0px;
+    width:auto;
+    height:500px;
+    background-position:center center;
+
+
+}
+div {
+  
+ 
+    background-color: white;
+    width: auto;
+    height: 250px;
+    background-position:center center;
+}
+
+
+
+
+div#h1 {background-image: url('imagem/entrada.png');}
+div#jogos {background-image: url('imagem/jogosdiv2.png');}
+div#plan {background-image: url('imagem/plantiopet.png');}
+div#ch{background-image: url('imagem/html-css.png');}
+div#py{background-image: url('imagem/python.png');}
+div#js{background-image: url('imagem/javascript.png');}
+div#ccc{background-image: url('imagem/ccc.png');}
+div#f47{background-image: url('imagem/fallout.png');}
+div#criat{background-image: url('imagem/criativerse.png');}
+div#td6 {background-image: url('imagem/td6.png');}
+div#wart{background-image: url('imagem/wart.png');}
+
+
+h1 {
+    text-align:center;
+    font-size: 90px;
+    padding-top:25px;
+}
+.h4m2{
+    
+    font-weight:bold;
+    text-align:center;
+   
+    font-size:60px;  
+}
+.h4m {
+    border-radius: 50px;
+    border:1px solid rgb(92, 16, 155);
+    background:rgba(92, 16, 155, 0.411) ;
+    font-family: 'game', 'Times New Roman', Times, serif;
+    font-weight:bold;
+    text-align:center;
+    color: rgb(92, 16, 155);
+    font-size:80px;   
+}
+.pm {
+    line-height:auto;
+    font-weight:bold;
+    text-align:left;
+    font-size:35px;
+    color:black;
+}
+a{
+    text-decoration: none;
+}
+.am{
+    padding: 10px 15px;
+    background-color:rgba(0, 0, 255, 0.555);
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 255, 0.555);
+
+}
+.ulm{
+    display: inline;
+   
+    columns: 2;
+    
+
+}
+nav{
+    
+    text-align:center;
+    height:25px;
+    margin: 0;
+
+}
+
+
+   
+   h3{
+       background-color:rgba(137, 43, 226, 0.76);
+      
+
+   }
+
+   /*menu*/
+*{margin: 0; padding: 0;} 
+.menu  li {
+    float: left;
+    text-align: left;
+    list-style: none; 
+    margin: 5px;
+    display: inline;
+}
+
+
+.menu{
+    list-style: none; 
+    border: 1px solid rgb(127, 0, 247);
+    float:left;
+    background-color:rgba(137, 43, 226, 0.349)ite;
+}
+.menu li{
+    position:relative;
+    float:left;
+    border-right: 1px solid rgb(127, 0, 247);
+}
+.menu li a{
+    font-size:22px;
+    color:rgb(74, 3, 141);
+    text-decoration: none; 
+    padding: 5px 10px; 
+    display: block;
+    background:rgb(228, 209, 247);
+}
+.menu li a:hover { 
+    background:rgb(201, 152, 247);
+    color:rgb(74, 3, 141);
+    text-shadow:0px 0px 5px rgba(128, 0, 247, 0.274);
+}
+.menu li ul{ 
+    list-style:none;
+    position: absolute; 
+    top:25px; 
+    left:0; 
+    background-color:rgba(137, 43, 226, 0.411)te; 
+    display:none;
+}
+
+.menu li:hover ul, .menu li.over ul {display:block;}
+.menu li ul li{ 
+     
+     border:1px solid rgb(127, 0, 247);
+     display:block;
+     width:150px;
+}
+/*menu ate aqui*/
+
+.objeto-a-flutuar:hover {
+    -webkit-transform: translateY(-8px);
+    -moz-transform: translateY(-8px);
+    -ms-transform: translateY(-8px);
+    -o-transform: translateY(-8px);
+    transform: translateY(-8px);
+}
+.objeto-a-flutuar {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
+}
+
+
+.t {
+    text-align: left;
+}
+/*tala*/
+
+table {
+    margin: auto;
+}
+table, th{
+    height:30px;
+    background:rgb(0, 61, 122);
+    color:white;
+    border:1px solid black;
+    text-align:center;
+}
+table, td {
+    width:50%;
+}
+table, tr, td{
+    text-align:left;
+    width:900px;
+    color:white;
+    background:rgb(29, 78, 128);
+    border: 1px solid black;
+    border-collapse:collapse; /*borda linha unica*/
+    vertical-align:bottom; /*linha fica alinhade a baixo*/
+    
+    
+}

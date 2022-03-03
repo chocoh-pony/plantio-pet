@@ -1,0 +1,38 @@
+.menu2 {
+    width: 100%;
+    height: 75px;
+    background: #474747;
+  }
+  .menu2 li {
+    list-style: none; 
+    display: inline;
+    height: 75px;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    float: left;
+    cursor: pointer;
+    position: relative;
+    -webkit-transition: all 200ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+    -moz-transition: all 200ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+    -o-transition: all 200ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+    transition: all 200ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+    /* easeInOutExpo */
+    -webkit-transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+    -moz-transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+    -o-transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+    transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+    /* easeInOutExpo */
+  }
+  .menu2 span {
+    font: 700 18px/18px"Open Sans";
+    color: #fff;
+    line-height: 75px;
+  }
+  .menu2 li:hover {
+    background: #fff;
+  }
+  .menu2 li span:hover {
+    color: #474747;
+  }
